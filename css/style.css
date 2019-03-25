@@ -98,6 +98,10 @@ header #header-content{
     margin: auto;
 }
 
+header #header-content p{
+    font-size: 20px;
+}
+
 header #header-content h1{
     font-size: 2.5em;
 }
@@ -127,13 +131,13 @@ header #header-content button{
     padding-top: 20px;
     background-color: transparent;
     border: none;
-    margin: auto;
+    margin: auto;-
 }
 
 #films .card:hover{
     /* background-color: rgba(255, 255, 255, 0.1); */
     border: 1px solid #000;
-    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
 }
 
 #films .card .card-title, #films .card .card-text{
@@ -142,6 +146,15 @@ header #header-content button{
 #films .card .card-subtitle{
     color: #f9bd11;
 }
+
+#films .card .card-detail{
+    background-color: #f60210;
+    padding: 7px 12px;
+    font-size: 18px;
+    color: #ddd;
+    border-radius: 2px;
+}
+
 
 /* END films section styles */
 
@@ -311,6 +324,9 @@ footer span{
     header #header-content{
         padding: 70px 100px;
     }
+    header #header-content p{
+        font-size: 22px;
+    }
     header #header-content button{
         font-size: 1.3em;
     }
@@ -329,6 +345,9 @@ footer span{
     #register form label{
         font-size: 1.2em;
     }
+    #films .card{
+        margin: 0;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -338,6 +357,9 @@ footer span{
     }
     header #header-content h1{
         font-size: 4em;
+    }
+    header #header-content p{
+        font-size: 30px;
     }
     #news .news-article h4{
         margin-right: 200px;
